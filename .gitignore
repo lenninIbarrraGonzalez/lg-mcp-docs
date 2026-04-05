@@ -1,0 +1,44 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Type checker
+.mypy_cache/
+
+# Linter
+.ruff_cache/
+
+# Test runner
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local database cache
+*.db
+*.db-shm
+*.db-wal
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# Evaluations output
+evaluations/eval.xml
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

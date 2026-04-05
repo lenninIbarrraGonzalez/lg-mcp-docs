@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "lg-docs": {
+      "command": "lg-docs-mcp",
+      "args": ["serve"]
+    }
+  }
+}
