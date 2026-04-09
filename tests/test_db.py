@@ -729,7 +729,6 @@ class TestExpandWithSynonyms:
 
     def test_output_is_fts5_safe(self) -> None:
         """Synonym expansion must produce a valid FTS5 query (no extra sanitization needed)."""
-        import sqlite3
 
         import lg_docs_mcp.db as db_mod
         from lg_docs_mcp.db import _expand_with_synonyms

@@ -15,7 +15,6 @@ from mcp.shared.memory import create_client_server_memory_streams
 import lg_docs_mcp.db as db_mod
 from lg_docs_mcp.server import mcp
 
-
 # ---------------------------------------------------------------------------
 # Fixtures
 # ---------------------------------------------------------------------------
